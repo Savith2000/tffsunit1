@@ -13,8 +13,9 @@
 
 #p1{
     text-align: center;
-    color: white;
-    font-size: 35px;
+    color: black;
+    font-style: bold;
+    font-size: 20px;
 }
 
 #FirstIndexContainer{
@@ -26,7 +27,8 @@
     width:100%;
     
 
-    background-color: #162B32;
+    background-color: #fbb034;
+background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
 
     
     
@@ -48,7 +50,9 @@ body{
    border-radius: 8px;
 }
 
-.col-md-4{
+#row4{
+
+    
     background-color: #90d5ec;
     background-image: linear-gradient(315deg, #90d5ec 0%, #fc575e 74%);
     border-radius: 40px;
@@ -59,14 +63,51 @@ body{
     
 }
 
+
+
 #IndexHeader{
 
-    font-size: 100px;
+    
+
+    position: relative;
+   
+    font-size: 150px;
     font-family: 'Work Sans', sans-serif;
-    color: #162B32;
-    margin-top: 50%;
-    opacity: 100%;
+    color: lightblue;
+    margin-top: 10%;
     padding-left: 5%;
+   
+    border-radius: 40px;
+    background-image: url(Myphoto.jpg);
+    background-size: cover;
+    background-position: center;
+
+    @media screen and (max-width: 1200px){
+
+        #IndexHeader{
+
+            font-size: 50px;
+    
+         
+    
+    
+    
+        }
+    
+       
+    }
+    
+    
+
+
+
+
+
+
+
+    
+   
+    
     
 
 
@@ -81,5 +122,36 @@ body{
     padding-left: 5%;
     
 }
+
+.height-1{
+    height: 200px;
+}
+
+
+
+#column{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+#row::after{
+    content:"";
+    display: table;
+}
+
+myphoto{
+    position: absolute;
+    top: 5%;
+}
+
+#Experience{
+    background-color:#90d5ec 0% ;
+    background-image: linear-gradient(315deg, #90d5ec 0%, #fc575e 74%);
+    border-radius: 0px;
+}
+
+
+
 
 
